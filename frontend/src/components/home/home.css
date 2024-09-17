@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar--heading {
@@ -249,4 +250,12 @@ body{
 
 .table--clms-right{
     border-radius: 0 10px 10px 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .navbar--outer{
+        flex-direction: column;
+        height: 10em;
+    }
 }
